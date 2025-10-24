@@ -1,4 +1,4 @@
-:global(:root){
+:root{
   --bg: linear-gradient(180deg,#f6f9ff 0%, #eef4ff 100%);
   --panel: #ffffff;
   --muted: #6b7280;
@@ -12,7 +12,7 @@
   --radius-lg: 14px;
 }
 
-:global(body.dark){
+body.dark{
   --bg: linear-gradient(180deg,#06101a 0%, #07121a 100%);
   --panel: #0b0d10;
   --muted: #98a3b6;
@@ -211,8 +211,8 @@
   box-shadow:var(--shadow);
   flex-shrink:0;
 }
-/* body.dark .avatar, body.dark .avatarRight { background: linear-gradient(135deg,#0f1b2a,#081323); color:var(--text); } */
-:global(body.dark) .avatar, :global(body.dark) .avatarRight { background: linear-gradient(135deg,#0f1b2a,#081323); color:var(--text); }
+body.dark .avatar, body.dark .avatarRight { background: linear-gradient(135deg,#0f1b2a,#081323); color:var(--text); }
+/* :global(body.dark) .avatar, :global(body.dark) .avatarRight { background: linear-gradient(135deg,#0f1b2a,#081323); color:var(--text); } */
 
 /* For "You" small badge on the right */
 .avatarRight {
